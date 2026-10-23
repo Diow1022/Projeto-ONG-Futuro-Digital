@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Futuro Digital: ONG de inclusão e educação digital.">
+<title>Início | Futuro Digital</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header>
+<div class="container topo">
+<a class="marca" href="index.html"><img src="img/logo.png" alt="Futuro Digital - ir para a página inicial" width="70" height="56"></a>
+<nav aria-label="Menu principal"><ul><li><a href="index.html" aria-current="page">Início</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="contato.html">Contato</a></li></ul></nav>
+</div>
+</header>
+<main id="conteudo">
+<section>
+<div class="container hero">
+<div class="hero-texto">
+<h1>Futuro Digital</h1>
+<p class="slogan">Tecnologia com propósito</p>
+<p>Somos uma ONG de inclusão e educação digital. Ajudamos jovens em busca do primeiro emprego, adultos e pessoas com pouco acesso à formação tecnológica a usar a internet com segurança e a encontrar novas oportunidades.</p>
+<div class="botoes">
+<a class="btn" href="projetos.html">Conheça os projetos</a>
+<a class="btn claro" href="contato.html">Quero participar</a>
+</div>
+</div>
+<div class="hero-img">
+<button type="button" class="hero-mascote" id="hero-tilontra" aria-label="Conversar com a TiLontra">
+<img src="img/tilontra-hero.png" alt="TiLontra, mascote da Futuro Digital: uma lontra de moletom escuro e mochila verde, segurando um tablet" width="230" height="321">
+</button>
+<p class="legenda-hero">Clique na TiLontra para conversar!</p>
+</div>
+</div>
+</section>
+<section class="faixa">
+<div class="container">
+<h2>O que fazemos</h2>
+<p>Três projetos sociais levam conhecimento tecnológico para quem mais precisa.</p>
+<div class="grade">
+<article class="cartao"><h3>Primeiros Cliques</h3><p style="color:var(--ink)">Oficinas de informática e ferramentas digitais.</p></article>
+<article class="cartao"><h3>Internet sem Medo</h3><p style="color:var(--ink)">Conscientização sobre golpes, privacidade e segurança on-line.</p></article>
+<article class="cartao"><h3>Conecta Carreira</h3><p style="color:var(--ink)">Orientação sobre currículo digital, pesquisa de vagas e aprendizagem em tecnologia.</p></article>
+</div>
+</div>
+</section>
+<section>
+<div class="container">
+<h2>Como funciona</h2>
+<p>Você escolhe o ritmo. Não precisa de experiência anterior.</p>
+<ol class="passos">
+<li><h3>Escolha um projeto</h3><p>Veja qual dos três projetos combina com o que você quer aprender agora.</p></li>
+<li><h3>Participe das atividades</h3><p>Aulas práticas, em linguagem simples, com apoio de voluntários.</p></li>
+<li><h3>Use no dia a dia</h3><p>Aplique o que aprendeu para se proteger on-line e buscar oportunidades.</p></li>
+</ol>
+</div>
+</section>
+<section>
+<div class="container">
+<h2>Dicas rápidas de segurança</h2>
+<div class="grade">
+<article class="cartao"><h3>Confira quem enviou</h3><p>Olhe o endereço completo do remetente, não só o nome que aparece na tela.</p></article>
+<article class="cartao"><h3>Ative a verificação em duas etapas</h3><p>Mesmo que alguém descubra sua senha, ainda precisará do segundo código.</p></article>
+<article class="cartao"><h3>Nunca compartilhe códigos</h3><p>Códigos de confirmação são só seus. Nenhuma empresa séria pede por mensagem.</p></article>
+</div>
+</div>
+</section>
+<section>
+<div class="container">
+<div class="chamada">
+<div>
+<h2>Junte-se ao nosso time</h2>
+<p>Seja voluntário, divulgue as oficinas ou doe equipamentos em bom estado.</p>
+</div>
+<a class="btn" href="contato.html">Quero participar</a>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="container">
+<ul class="rodape-nav"><li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="contato.html">Contato</a></li></ul>
+<p><strong>Futuro Digital</strong> · Tecnologia com propósito</p>
+<p>Protótipo acadêmico de uma ONG fictícia, criado para o projeto integrador de Front-end. Não representa uma organização real e não coleta dados.</p>
+<p>Créditos: mascote TiLontra e identidade visual criados pela equipe para este projeto.</p>
+</div>
+</footer>
+<aside class="tilontra" aria-label="Mascote TiLontra">
+<div class="balao" id="balao" hidden>
+<img id="balao-pose" class="balao-pose" src="img/pose-juntos.png" alt="" width="80" height="84">
+<div class="balao-texto">
+<p><strong>TiLontra:</strong></p>
+<p id="dica-texto" aria-live="polite">Antes de clicar em um link desconhecido, pare e confira o endereço. Golpes dependem da pressa!</p>
+<p class="balao-pergunta">Quer outra dica? Escolha um assunto:</p>
+<div class="balao-opcoes">
+<button type="button" id="tema-golpes">Golpes</button>
+<button type="button" id="tema-senhas">Senhas</button>
+<button type="button" id="tema-curriculo">Currículo</button>
+</div>
+</div>
+</div>
+<button class="btn-tilontra" id="btn-tilontra" type="button" aria-expanded="false" aria-controls="balao">
+<img src="img/tilontra-rosto.png" alt="">
+<span id="btn-texto">Falar com a TiLontra</span>
+</button>
+</aside>
+<script src="js/script.js"></script>
+</body>
+</html>
 
