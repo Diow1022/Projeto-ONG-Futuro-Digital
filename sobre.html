@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Missão, público e valores da ONG Futuro Digital.">
+<title>Sobre | Futuro Digital</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header>
+<div class="container topo">
+<a class="marca" href="index.html"><img src="img/logo.png" alt="Futuro Digital - ir para a página inicial" width="70" height="56"></a>
+<nav aria-label="Menu principal"><ul><li><a href="index.html">Início</a></li><li><a href="sobre.html" aria-current="page">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="contato.html">Contato</a></li></ul></nav>
+</div>
+</header>
+<main id="conteudo">
+<section>
+<div class="container">
+<h1>Sobre a Futuro Digital</h1>
+<h2>Nossa história</h2>
+<p>A Futuro Digital nasceu da percepção de que a tecnologia está em tudo, do currículo ao aplicativo do banco, mas nem todo mundo teve a chance de aprender a usá-la. Por isso criamos uma ONG de inclusão e educação digital, com foco em segurança na internet, acesso à tecnologia e preparação para oportunidades profissionais.</p>
+<h2>Missão</h2>
+<p>Democratizar o acesso ao conhecimento tecnológico, promovendo educação digital, segurança on-line e inclusão profissional.</p>
+</div>
+</section>
+<section class="faixa">
+<div class="container">
+<h2>Quem atendemos</h2>
+<p>Jovens em busca do primeiro emprego, adultos e pessoas com pouco acesso à formação tecnológica. Por isso, nossos conteúdos usam linguagem simples e começam do zero.</p>
+<h2>Nossos objetivos</h2>
+<ul>
+<li>Ensinar o uso de computadores, celulares e ferramentas digitais.</li>
+<li>Reduzir golpes e proteger a privacidade de quem usa a internet.</li>
+<li>Preparar as pessoas para buscar vagas e aprender tecnologia.</li>
+</ul>
+</div>
+</section>
+<section>
+<div class="container">
+<h2>Nossos valores</h2>
+<div class="grade">
+<article class="cartao"><h3>Inteligência</h3><p>Aprende e se adapta sempre.</p></article>
+<article class="cartao"><h3>Conexão</h3><p>Aproxima pessoas e oportunidades.</p></article>
+<article class="cartao"><h3>Segurança</h3><p>Navega com cuidado e consciência.</p></article>
+<article class="cartao"><h3>Evolução</h3><p>Sempre em busca de um futuro melhor.</p></article>
+</div>
+</div>
+</section>
+<section class="faixa">
+<div class="container">
+<h2>Como trabalhamos</h2>
+<ul class="lista-check">
+<li>Aulas práticas, com o computador na mão desde o primeiro dia.</li>
+<li>Linguagem simples, sem termos técnicos desnecessários.</li>
+<li>Turmas pequenas, para que cada pessoa receba atenção.</li>
+<li>Voluntários que acompanham e tiram dúvidas durante as atividades.</li>
+</ul>
+<h2>Nossos compromissos</h2>
+<p>Respeitamos a privacidade de quem participa: pedimos só os dados necessários e seguimos os princípios da LGPD. Todas as atividades são gratuitas.</p>
+</div>
+</section>
+<section>
+<div class="container mascote-sobre">
+<img src="img/tilontra.png" alt="TiLontra, mascote da Futuro Digital: uma lontra de moletom escuro com mochila verde, segurando um tablet" width="575" height="578" style="background:#000">
+<div>
+<h2>Conheça a TiLontra</h2>
+<p>Nosso mascote é uma lontra, símbolo de inteligência, adaptabilidade e trabalho em equipe. Assim como a lontra, acreditamos em um futuro digital mais conectado, inclusivo e cheio de oportunidades para todos.</p>
+<p>Ela acompanha você em todas as páginas: clique no botão no canto da tela para ouvir uma dica.</p>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="container">
+<ul class="rodape-nav"><li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="contato.html">Contato</a></li></ul>
+<p><strong>Futuro Digital</strong> · Tecnologia com propósito</p>
+<p>Protótipo acadêmico de uma ONG fictícia, criado para o projeto integrador de Front-end. Não representa uma organização real e não coleta dados.</p>
+<p>Créditos: mascote TiLontra e identidade visual criados pela equipe para este projeto.</p>
+</div>
+</footer>
+<aside class="tilontra" aria-label="Mascote TiLontra">
+<div class="balao" id="balao" hidden>
+<img id="balao-pose" class="balao-pose" src="img/pose-juntos.png" alt="" width="80" height="84">
+<div class="balao-texto">
+<p><strong>TiLontra:</strong></p>
+<p id="dica-texto" aria-live="polite">Use senhas longas e diferentes em cada conta. Uma frase fácil de lembrar funciona melhor que uma palavra curta.</p>
+<p class="balao-pergunta">Quer outra dica? Escolha um assunto:</p>
+<div class="balao-opcoes">
+<button type="button" id="tema-golpes">Golpes</button>
+<button type="button" id="tema-senhas">Senhas</button>
+<button type="button" id="tema-curriculo">Currículo</button>
+</div>
+</div>
+</div>
+<button class="btn-tilontra" id="btn-tilontra" type="button" aria-expanded="false" aria-controls="balao">
+<img src="img/tilontra-rosto.png" alt="">
+<span id="btn-texto">Falar com a TiLontra</span>
+</button>
+</aside>
+<script src="js/script.js"></script>
+</body>
+</html>
