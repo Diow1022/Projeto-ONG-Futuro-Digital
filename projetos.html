@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Os três projetos sociais da Futuro Digital.">
+<title>Projetos | Futuro Digital</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header>
+<div class="container topo">
+<a class="marca" href="index.html"><img src="img/logo.png" alt="Futuro Digital - ir para a página inicial" width="70" height="56"></a>
+<nav aria-label="Menu principal"><ul><li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html" aria-current="page">Projetos</a></li><li><a href="contato.html">Contato</a></li></ul></nav>
+</div>
+</header>
+<main id="conteudo">
+<section>
+<div class="container">
+<h1>Nossos projetos</h1>
+<p>Cada projeto responde a uma necessidade real: aprender a usar a tecnologia, navegar com segurança e conquistar oportunidades.</p>
+<article class="projeto">
+<img src="img/pose-estudando.png" alt="TiLontra sentada usando um notebook e fones de ouvido" width="350" height="300">
+<div>
+<h2>Primeiros Cliques</h2>
+<p>Oficinas de informática e ferramentas digitais, com aulas práticas sobre mouse, teclado, e-mail, editores de texto e aplicativos do dia a dia.</p>
+<h3>O que você aprende</h3><ul class="lista-check"><li>Ligar, desligar e organizar arquivos no computador.</li><li>Criar e usar e-mail.</li><li>Escrever e salvar documentos de texto.</li></ul><p><strong>Para quem:</strong> pessoas que estão começando a usar o computador.</p>
+<p class="contribua"><strong>Como a comunidade contribui:</strong> voluntários dão as oficinas e a comunidade doa computadores em bom estado.</p>
+</div>
+</article><article class="projeto">
+<img src="img/pose-conectado.png" alt="TiLontra sorrindo e fazendo sinal de joia" width="350" height="300">
+<div>
+<h2>Internet sem Medo</h2>
+<p>Conscientização sobre golpes, privacidade e segurança on-line, com exemplos de mensagens falsas, senhas fortes e cuidados com dados pessoais.</p>
+<h3>O que você aprende</h3><ul class="lista-check"><li>Reconhecer mensagens e links falsos.</li><li>Criar senhas fortes e ativar a verificação em duas etapas.</li><li>Proteger seus dados pessoais nas redes sociais.</li></ul><p><strong>Para quem:</strong> jovens e adultos que usam celular, banco e redes sociais.</p>
+<p class="contribua"><strong>Como a comunidade contribui:</strong> a comunidade compartilha casos reais de golpes e ajuda a divulgar as palestras.</p>
+</div>
+</article><article class="projeto">
+<img src="img/pose-oportunidades.png" alt="TiLontra segurando um tablet" width="350" height="300">
+<div>
+<h2>Conecta Carreira</h2>
+<p>Orientação sobre currículo digital, pesquisa de vagas e aprendizagem em tecnologia, para quem busca o primeiro emprego ou uma recolocação.</p>
+<h3>O que você aprende</h3><ul class="lista-check"><li>Montar um currículo digital.</li><li>Pesquisar vagas e se candidatar on-line.</li><li>Conhecer caminhos de estudo em tecnologia.</li></ul><p><strong>Para quem:</strong> jovens em busca do primeiro emprego e adultos em transição de carreira.</p>
+<p class="contribua"><strong>Como a comunidade contribui:</strong> profissionais voluntários fazem mentorias e empresas parceiras indicam vagas.</p>
+</div>
+</article>
+<h2>Resumo dos projetos</h2>
+<div class="tabela-rolagem">
+<table>
+<caption class="sr">Comparação entre os três projetos</caption>
+<thead><tr><th scope="col">Projeto</th><th scope="col">Foco</th><th scope="col">Para quem</th></tr></thead>
+<tbody>
+<tr><th scope="row">Primeiros Cliques</th><td>Informática básica e ferramentas digitais</td><td>Quem está começando</td></tr>
+<tr><th scope="row">Internet sem Medo</th><td>Golpes, privacidade e segurança</td><td>Jovens e adultos conectados</td></tr>
+<tr><th scope="row">Conecta Carreira</th><td>Currículo, vagas e aprendizagem</td><td>Primeiro emprego e recolocação</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="container">
+<ul class="rodape-nav"><li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="contato.html">Contato</a></li></ul>
+<p><strong>Futuro Digital</strong> · Tecnologia com propósito</p>
+<p>Protótipo acadêmico de uma ONG fictícia, criado para o projeto integrador de Front-end. Não representa uma organização real e não coleta dados.</p>
+<p>Créditos: mascote TiLontra e identidade visual criados pela equipe para este projeto.</p>
+</div>
+</footer>
+<aside class="tilontra" aria-label="Mascote TiLontra">
+<div class="balao" id="balao" hidden>
+<img id="balao-pose" class="balao-pose" src="img/pose-juntos.png" alt="" width="80" height="84">
+<div class="balao-texto">
+<p><strong>TiLontra:</strong></p>
+<p id="dica-texto" aria-live="polite">Desconfie de mensagens que pedem códigos ou senhas. Empresas sérias nunca pedem isso por mensagem.</p>
+<p class="balao-pergunta">Quer outra dica? Escolha um assunto:</p>
+<div class="balao-opcoes">
+<button type="button" id="tema-golpes">Golpes</button>
+<button type="button" id="tema-senhas">Senhas</button>
+<button type="button" id="tema-curriculo">Currículo</button>
+</div>
+</div>
+</div>
+<button class="btn-tilontra" id="btn-tilontra" type="button" aria-expanded="false" aria-controls="balao">
+<img src="img/tilontra-rosto.png" alt="">
+<span id="btn-texto">Falar com a TiLontra</span>
+</button>
+</aside>
+<script src="js/script.js"></script>
+</body>
+</html>
