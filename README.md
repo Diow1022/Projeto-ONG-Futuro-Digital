@@ -2,7 +2,9 @@
 
 Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclusão e educação digital.
 
-**Integrantes:** Kamilly Anselmoo (RGM: 47234237)
+**Integrantes:**  
+Kamilly Anselmoo (RGM: 47234237)  
+Matheus Pedrosa   
 falta colocar o de vcs
 
 ## Objetivo
