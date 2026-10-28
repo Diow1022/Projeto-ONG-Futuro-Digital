@@ -6,6 +6,7 @@ Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclus
 Kamilly Anselmoo (RGM: 47234237)  
 Matheus Pedrosa   
 Jonatas do Nascimento Lima (46929720)
+
 falta colocar o de vcs
 
 ## Objetivo
