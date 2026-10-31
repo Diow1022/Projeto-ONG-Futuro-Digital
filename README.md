@@ -8,6 +8,7 @@ Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclus
 - Jonatas do Nascimento Lima (RGM: 46929720)
 - Pablo Orlando Bizari Di Sisto (RGM: 46695737)
 - Guilherme Pereira Ferreira da Silva (RGM: 47228903)
+- Vithor Hugo Moreno de Carvalho (RGM: 46761926)
 
 falta colocar o de vcs
 
