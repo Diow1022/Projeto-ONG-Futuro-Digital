@@ -5,8 +5,9 @@ Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclus
 **Integrantes:**  
 - Kamilly Anselmoo (RGM: 47234237)  
 - Matheus Pedrosa   
-- Jonatas do Nascimento Lima (46929720)
+- Jonatas do Nascimento Lima (RGM: 46929720)
 - Pablo Orlando Bizari Di Sisto (RGM: 46695737)
+- Guilherme Pereira Ferreira da Silva (RGM: 47228903)
 
 falta colocar o de vcs
 
