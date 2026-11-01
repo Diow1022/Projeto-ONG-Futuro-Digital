@@ -9,6 +9,7 @@ Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclus
 - Pablo Orlando Bizari Di Sisto (RGM: 46695737)
 - Guilherme Pereira Ferreira da Silva (RGM: 47228903)
 - Vithor Hugo Moreno de Carvalho (RGM: 46761926)
+- Christian Badolato Santos (RGM: 47224011)
 
 falta colocar o de vcs
 
