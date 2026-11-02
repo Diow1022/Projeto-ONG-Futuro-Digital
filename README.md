@@ -10,6 +10,7 @@ Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclus
 - Guilherme Pereira Ferreira da Silva (RGM: 47228903)
 - Vithor Hugo Moreno de Carvalho (RGM: 46761926)
 - Christian Badolato Santos (RGM: 47224011)
+- Davi Barros Correia (RGM: 47204885)
 
 falta colocar o de vcs
 
