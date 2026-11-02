@@ -28,4 +28,6 @@ Divulgar a atuação da Futuro Digital, que democratiza o acesso ao conhecimento
 2. **Interação da TiLontra (mascote interativa):** o botão no canto da tela, ou o clique no mascote da página inicial, abre e fecha o balão de conversa (o texto do botão muda). Dentro do balão, o público escolhe um assunto (Golpes, Senhas ou Currículo) e a TiLontra mostra a dica e troca de pose. Usa `addEventListener("click", ...)`, funções, `if/else`, `textContent` e alteração do DOM.
 
 ## Fontes e créditos
-Mascote TiLontra e identidade visual: criação da equipe para este projeto. Projeto acadêmico fictício, sem coleta de dados e sem relação com ONG real.
+A mascote TiLontra, a identidade visual e as imagens utilizadas no projeto foram desenvolvidas pela equipe com auxílio de ferramentas de inteligência artificial.
+
+A Futuro Digital é uma ONG fictícia, criada exclusivamente para fins acadêmicos. O formulário possui envio simulado, sem envio de e-mails ou coleta de dados.
