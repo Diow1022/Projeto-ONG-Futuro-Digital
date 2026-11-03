@@ -30,4 +30,4 @@ Divulgar a atuação da Futuro Digital, que democratiza o acesso ao conhecimento
 ## Fontes e créditos
 A mascote TiLontra, a identidade visual e as imagens utilizadas no projeto foram desenvolvidas pela equipe com auxílio de ferramentas de inteligência artificial.
 
-A Futuro Digital é uma ONG fictícia, criada exclusivamente para fins acadêmicos. O formulário possui envio simulado, sem envio de e-mails ou coleta de dados
+A Futuro Digital é uma ONG fictícia, criada exclusivamente para fins acadêmicos. O formulário possui envio simulado, sem envio de e-mails ou coleta de dados.
