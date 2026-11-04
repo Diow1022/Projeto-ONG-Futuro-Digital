@@ -4,12 +4,19 @@ Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclus
 
 **Integrantes:**  
 -Christian Badolato Santos (RGM: 47224011)
+
 -Davi Barros Correia (RGM: 47204885)
+
 -Guilherme Pereira Ferreira da Silva (RGM: 47228903)
+
 -Jonatas do Nascimento Lima (RGM: 46929720)
+
 -Kamilly Anselmoo (RGM: 47234237)
+
 -Matheus Pedrosa dos Reis (RGM: 46784721)
+
 -Pablo Orlando Bizari Di Sisto (RGM: 46695737)
+
 -Vithor Hugo Moreno de Carvalho (RGM: 46761926)
 
 falta colocar o de vcs
