@@ -3,6 +3,7 @@
 Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclusão e educação digital.
 
 **Integrantes:**  
+
 -Christian Badolato Santos (RGM: 47224011)
 
 -Davi Barros Correia (RGM: 47204885)
@@ -19,7 +20,7 @@ Projeto integrador (HTML, CSS e JavaScript): site de uma ONG fictícia de inclus
 
 -Vithor Hugo Moreno de Carvalho (RGM: 46761926)
 
-falta colocar o de vcs
+
 
 ## Objetivo
 Divulgar a atuação da Futuro Digital, que democratiza o acesso ao conhecimento tecnológico com educação digital, segurança on-line e inclusão profissional.
